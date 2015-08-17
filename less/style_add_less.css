@@ -1,0 +1,19 @@
+.sidebar {
+  margin-top: 76px;
+}
+.bar {
+  margin-right: 80px;
+  float: left;
+}
+.bar div {
+  width: 265px;
+  background: #fff;
+  box-shadow: 0 0 5px #000000;
+  -moz-box-shadow: 0 0 5px #000000;
+  -webkit-box-shadow: 0 0 5px #000000;
+}
+.bar div h3 {
+  font: bold 16px/48px "MyriadProRegular", sans-serif;
+  color: #494848;
+  text-align: center;
+}
