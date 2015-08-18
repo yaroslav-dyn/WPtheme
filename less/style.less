@@ -1,8 +1,14 @@
-@shadow-content: 0 0 5px #000; /*shadow box*/
-/*sadow form [input, submit] */
+//var link  style
+@colorLink: #666666;
+@colorLinkActive: #666666;
+@colorLinkHover: #d42819;
+
+
+@shadow-content: 0 0 5px #000; //shadow box
+//sadow form [input, submit] 
 @shdow-input: 0px 1px 0 0.00 rgba(255,255,255,0.25);
 @shdow-input-in: inset 1px 0 1px 0.0 rgba(0,0,0,0.6);
-
+			/*footer*/
 .footer_inner{
 	margin-top: 76px;
 }
@@ -10,18 +16,17 @@
 		margin-right: 80px;
 		float: left;
 		width: 265px;
-		& div{
-			
+		& .h_wrap{
 			background: #fff;
 			box-shadow: @shadow-content;
 			-moz-box-shadow: @shadow-content;
 			-webkit-box-shadow: @shadow-content;
 		}
-		& div h3{
-			font:bold 16px/48px "MyriadProRegular", sans-serif; 
-			color: #494848;
-			text-align: center;
-		}
+			& .h_wrap h3{
+				font:bold 16px/48px "MyriadProRegular", sans-serif; 
+				color: #494848;
+				text-align: center;
+			}
 		& p {
 			font: 12px 'Myriad Pro', sans-serif;
 			color: #666666;
@@ -43,6 +48,7 @@
 		& input.search_text {
 			width: 212px;
 			padding-left: 10px;
+			margin-top: 25px;
 		}
 		& input.go{
 			width: 39px;
@@ -51,5 +57,31 @@
 			cursor: pointer;
 		}
 	}
+
+	.search_tags{
+			margin-top: 20px;
+			float: left;
+			width: 100%;
+			
+			& div.left{
+				float: left;
+				margin-right: 10px;
+			}
+			& div.right{
+				margin-right: 0;
+			}
+
+			& ul{
+				list-style: none; 
+			}
+			& a,li {
+				font: 12px/18px 'Myriad Pro', sans-serif;
+				color: @colorLink;
+			}
+				& a:hover{
+					border-bottom: 1px dashed #666;	
+				}
+	}	
+
 
 

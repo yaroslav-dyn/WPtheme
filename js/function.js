@@ -9,5 +9,10 @@ $('.footer_inner .bar:nth-of-type(3n)').css
 	({
 		'margin-right': '0'
 	});
+//remove the margin-right at 2-el li in footer search tag
+$('.footer_inner .by ul:nth-of-type(2)').css
+	({
+		'margin-right': '0'
+	});	
 	
 });
