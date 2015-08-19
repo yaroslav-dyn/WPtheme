@@ -1,3 +1,7 @@
+/*special style*/
+.gallery_title a:hover {
+  color: #d42819;
+}
 /*footer*/
 .footer_inner {
   margin-top: 76px;
@@ -27,12 +31,12 @@
   height: 33px;
   border: none;
   background: rgba(62, 60, 61, 0.25);
-  box-shadow: 0px 1px 0 0 rgba(255, 255, 255, 0.25), inset 1px 0 1px 0 rgba(0, 0, 0, 0.6);
-  -moz-box-shadow: 0px 1px 0 0 rgba(255, 255, 255, 0.25), inset 1px 0 1px 0 rgba(0, 0, 0, 0.6);
-  -webkit-box-shadow: 0px 1px 0 0 rgba(255, 255, 255, 0.25), inset 1px 0 1px 0 rgba(0, 0, 0, 0.6);
   font: 600 italic 14px 'Myriad Pro', sans-serif;
   color: #d42819;
   margin-top: 25px;
+  box-shadow: 0px 1px 0 0 rgba(255, 255, 255, 0.25), inset 1px 0 1px 0 rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0px 1px 0 0 rgba(255, 255, 255, 0.25), inset 1px 0 1px 0 rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0px 1px 0 0 rgba(255, 255, 255, 0.25), inset 1px 0 1px 0 rgba(0, 0, 0, 0.6);
 }
 .search input.search_text {
   width: 212px;

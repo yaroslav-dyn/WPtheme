@@ -1,13 +1,27 @@
 //var link  style
 @colorLink: #666666;
-@colorLinkActive: #666666;
 @colorLinkHover: #d42819;
 
-
-@shadow-content: 0 0 5px #000; //shadow box
+//shadow box
+@shadow-content: 0 0 5px #000; 
+.shadow-content(){	//sadow mix-in
+	box-shadow: @shadow-content;
+	-moz-box-shadow: @shadow-content;
+	-webkit-box-shadow: @shadow-content;
+}
 //sadow form [input, submit] 
 @shdow-input: 0px 1px 0 0.00 rgba(255,255,255,0.25);
 @shdow-input-in: inset 1px 0 1px 0.0 rgba(0,0,0,0.6);
+.shadow-input(){
+	box-shadow: @shdow-input,@shdow-input-in;
+	-moz-box-shadow: @shdow-input,@shdow-input-in;
+	-webkit-box-shadow: @shdow-input,@shdow-input-in;
+}	
+		/*special style*/
+.gallery_title a:hover{
+	color: @colorLinkHover;
+}
+
 			/*footer*/
 .footer_inner{
 	margin-top: 76px;
@@ -18,9 +32,7 @@
 		width: 265px;
 		& .h_wrap{
 			background: #fff;
-			box-shadow: @shadow-content;
-			-moz-box-shadow: @shadow-content;
-			-webkit-box-shadow: @shadow-content;
+			.shadow-content;
 		}
 			& .h_wrap h3{
 				font:bold 16px/48px "MyriadProRegular", sans-serif; 
@@ -38,12 +50,10 @@
 			height: 33px;
 			border: none;
 			background: rgba(62, 60, 61, 0.25);	
-			box-shadow: @shdow-input,@shdow-input-in;
-			-moz-box-shadow: @shdow-input,@shdow-input-in;
-			-webkit-box-shadow: @shdow-input,@shdow-input-in;
 			font: 600 italic 14px 'Myriad Pro', sans-serif;
 			color: #d42819;
 			margin-top: 25px;
+			.shadow-input;
 		}
 		& input.search_text {
 			width: 212px;
