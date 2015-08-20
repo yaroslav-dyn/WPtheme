@@ -40,8 +40,8 @@
 				text-align: center;
 			}
 		& p {
-			font: 12px 'Myriad Pro', sans-serif;
-			color: #666666;
+			font: 12px/18px 'Myriad Pro', sans-serif;
+			color: @colorLink;
 			margin-top:20px;
 		}	
 	}
@@ -51,7 +51,7 @@
 			border: none;
 			background: rgba(62, 60, 61, 0.25);	
 			font: 600 italic 14px 'Myriad Pro', sans-serif;
-			color: #d42819;
+			color: @colorLinkHover;
 			margin-top: 25px;
 			.shadow-input;
 		}
@@ -70,7 +70,6 @@
 
 	.search_tags{
 			margin-top: 20px;
-			float: left;
 			width: 100%;
 			
 			& div.left{
@@ -84,13 +83,16 @@
 			& ul{
 				list-style: none; 
 			}
-			& a,li {
-				font: 12px/18px 'Myriad Pro', sans-serif;
-				color: @colorLink;
+			& li,a {
+    			padding-bottom: 5px;
 			}
-				& a:hover{
-					border-bottom: 1px dashed #666;	
+				& a,span{
+				font: 1.16em/1.7em 'Myriad Pro', sans-serif; 
+				color: @colorLink;
 				}
+					& a:hover{
+						border-bottom: 1px dashed #666;	
+					}
 	}	
 
 
