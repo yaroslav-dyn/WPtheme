@@ -3,8 +3,18 @@
   color: #d42819;
 }
 /*footer*/
+footer .copyright {
+  text-align: right;
+  padding-top: 15px;
+}
+footer .copyright a {
+  font: 12px "MyriadProRegular", sans-serif;
+  color: #666666;
+}
 .footer_inner {
   margin-top: 76px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  padding-bottom: 75px;
 }
 .bar {
   margin-right: 80px;
@@ -23,17 +33,17 @@
   text-align: center;
 }
 .bar p {
-  font: 12px/18px 'Myriad Pro', sans-serif;
+  font: 12px/16px 'MyriadProRegular', sans-serif;
   color: #666666;
   margin-top: 20px;
 }
 .search input {
   height: 33px;
   border: none;
+  margin-top: 15px;
   background: rgba(62, 60, 61, 0.25);
-  font: 600 italic 14px 'Myriad Pro', sans-serif;
+  font: italic 14px 'MyriadProRegular', sans-serif;
   color: #d42819;
-  margin-top: 25px;
   box-shadow: 0px 1px 0 0 rgba(255, 255, 255, 0.25), inset 1px 0 1px 0 rgba(0, 0, 0, 0.6);
   -moz-box-shadow: 0px 1px 0 0 rgba(255, 255, 255, 0.25), inset 1px 0 1px 0 rgba(0, 0, 0, 0.6);
   -webkit-box-shadow: 0px 1px 0 0 rgba(255, 255, 255, 0.25), inset 1px 0 1px 0 rgba(0, 0, 0, 0.6);
@@ -41,7 +51,6 @@
 .search input.search_text {
   width: 212px;
   padding-left: 10px;
-  margin-top: 25px;
 }
 .search input.go {
   width: 39px;
@@ -58,7 +67,7 @@
   margin-right: 10px;
 }
 .search_tags div.right {
-  margin-right: 0;
+  margin: 0;
 }
 .search_tags ul {
   list-style: none;
@@ -69,7 +78,7 @@
 }
 .search_tags a,
 .search_tags span {
-  font: 1.16em/1.7em 'Myriad Pro', sans-serif;
+  font: 12px/24px 'MyriadProRegular', sans-serif;
   color: #666666;
 }
 .search_tags a:hover {
