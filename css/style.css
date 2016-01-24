@@ -1,21 +1,21 @@
 
 @font-face {
-    font-family: 'MyriadProRegular';
-    src: url('../font-in/MyriadProRegular.eot');
-    src: url('../font-in/MyriadProRegular.eot') format('embedded-opentype'),
-         url('../font-in/MyriadProRegular.woff2') format('woff2'),
-         url('../font-in/MyriadProRegular.woff') format('woff'),
-         url('../font-in/MyriadProRegular.ttf') format('truetype'),
-         url('../font-in/MyriadProRegular.svg#MyriadProRegular') format('svg');
+		font-family: 'MyriadProRegular';
+		src: url('../font-in/MyriadProRegular.eot');
+		src: url('../font-in/MyriadProRegular.eot') format('embedded-opentype'),
+				 url('../font-in/MyriadProRegular.woff2') format('woff2'),
+				 url('../font-in/MyriadProRegular.woff') format('woff'),
+				 url('../font-in/MyriadProRegular.ttf') format('truetype'),
+				 url('../font-in/MyriadProRegular.svg#MyriadProRegular') format('svg');
 }
 @font-face {
-    font-family: 'MyriadProCond';
-    src: url('../font-in/MyriadProCond.eot');
-    src: url('../font-in/MyriadProCond.eot') format('embedded-opentype'),
-         url('../font-in/MyriadProCond.woff2') format('woff2'),
-         url('../font-in/MyriadProCond.woff') format('woff'),
-         url('../font-in/MyriadProCond.ttf') format('truetype'),
-         url('../font-in/MyriadProCond.svg#MyriadProCond') format('svg');
+		font-family: 'MyriadProCond';
+		src: url('../font-in/MyriadProCond.eot');
+		src: url('../font-in/MyriadProCond.eot') format('embedded-opentype'),
+				 url('../font-in/MyriadProCond.woff2') format('woff2'),
+				 url('../font-in/MyriadProCond.woff') format('woff'),
+				 url('../font-in/MyriadProCond.ttf') format('truetype'),
+				 url('../font-in/MyriadProCond.svg#MyriadProCond') format('svg');
 }
 
 /*MAIN STYLE*/
@@ -23,194 +23,193 @@ html{
 
 }
 body{
-    background: #fdfcfb url(../images/bg_simp.png) repeat;
-    font: 'MyriadProRegular',sans-serif;
+		background: #fdfcfb url(../images/bg_simp.png) repeat;
+		font: 'MyriadProRegular',sans-serif;
 }
 a{
-    font-family: 'MyriadProRegular', sans-serif;
-    color: #868585;
+		font-family: 'MyriadProRegular', sans-serif;
+		color: #868585;
 	text-decoration: none;
 }
 .clear{
-   clear: both; 
+	 clear: both;
 }
 h2,h3,h4,h5,h6{
-    font-family: 'MyriadProRegular', sans-serif;
-    color: #7e7e7d;
+		font-family: 'MyriadProRegular', sans-serif;
+		color: #7e7e7d;
 }
 nav{
-  display: block;
+	display: block;
 }
 
 #wrapper{
-    margin: 0 auto;
-    width: 960px;
+		margin: 0 auto;
+		width: 960px;
 }
 /**************Header********************/
 .in_header{
-  height: 74px;
-  margin-top: 104px;
-  background-color: #fefefe;
-  border-bottom: 2px solid #eae9e8; 
-  box-shadow: 0 -1px 1px #dedddc, 0 -2px 5px #dedddc, 0 1px 1px #dedddc, 0 2px 5px #dedddc;
+	height: 74px;
+	margin-top: 104px;
+	background-color: #fefefe;
+	border-bottom: 2px solid #eae9e8;
+	box-shadow: 0 -1px 1px #dedddc, 0 -2px 5px #dedddc, 0 1px 1px #dedddc, 0 2px 5px #dedddc;
 }
 .in_header_resize{
-  position: relative;  
-  width: 960px;
-  margin: 0 auto;
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
 }
 div.logo{
-    position: absolute;
-    top: -23px;
-    left: -19px;
+		position: absolute;
+		top: -23px;
+		left: -19px;
 }
 div.logo h1{
-   text-indent: 100%;
-   white-space: nowrap;
-   overflow: hidden;
+	 text-indent: 100%;
+	 white-space: nowrap;
+	 overflow: hidden;
 }
 div.logo a{
-   background: url(../images/logo.png) no-repeat;
-   width: 120px;
-   height: 120px;
-   display: block;
+	 background: url(../images/logo.png) no-repeat;
+	 width: 120px;
+	 height: 120px;
+	 display: block;
 }
-
 
 /*Main NAV*/
 nav{
-  position: absolute;
-    top: 30px;
-    left: 167px;
-	float: left; 
+	position: absolute;
+	top: 30px;
+	left: 167px;
+	float: left;
 }
-   ul.main_nav li{
-       display: inline-block;
-       float: left;
-       padding-right: 37px;
-   } 
-     ul.main_nav li a{
-         font: 18px Helvetica, "MyriadProCond", sans-serif;
-         color: #8d8c8c;
-         text-decoration: none;
-         text-transform: uppercase;
-         padding-bottom: 10px;
-     }
-       ul.main_nav li a:hover, .active{
-           border-bottom: 1px solid #d42819;
-       }
+	 ul.main_nav li{
+		display: inline-block;
+		float: left;
+		padding-right: 37px;
+	 }
+		 ul.main_nav li a{
+				 font: 18px Helvetica, "MyriadProCond", sans-serif;
+				 color: #8d8c8c;
+				 text-decoration: none;
+				 text-transform: uppercase;
+				 padding-bottom: 10px;
+		 }
+			 ul.main_nav li a:hover, .active{
+					 border-bottom: 1px solid #d42819;
+			 }
 
 /****************Social sprite*****************/
 .social_block{
-  position: absolute;
-    top: 25px;
-    right: 0px;
-    float:left;
+	position: absolute;
+		top: 25px;
+		right: 0px;
+		float:left;
 }
-  .social_block ul li {
-      float: left;
-      list-style: none;
-  }  
-      a.social {
-        display: block;
-        background: url(../images/social_sprite.png) 0 0;
-        height: 27px; 
-        width: 25px; 
-        padding-right: 6px;
-        -webkit-transition: all 0.3s ease;
-        -moz-transition: all 0.3s ease;
-        -ms-transition: all 0.3s ease;
-        -o-transition: all 0.3s ease;
-        transition: all 0.3s ease;
-    }  
-        a.face{
-            background-position: 0 0;
+	.social_block ul li {
+			float: left;
+			list-style: none;
+	}
+			a.social {
+				display: block;
+				background: url(../images/social_sprite.png) 0 0;
+				height: 27px;
+				width: 25px;
+				padding-right: 6px;
+				-webkit-transition: all 0.3s ease;
+				-moz-transition: all 0.3s ease;
+				-ms-transition: all 0.3s ease;
+				-o-transition: all 0.3s ease;
+				transition: all 0.3s ease;
+		}
+				a.face{
+						background-position: 0 0;
 
-        }
-         a.twitt{
-            background-position: -32px 0;
-        }
-       a.drible{
-            background-position: -64px 0;
-        }
-        a.besh{
-            background-position: -96px 0;
-        }
-        a.gpl{
-                background-position: -128px 0;
-            }
-        a.rss{
-                background-position: -160px 0;
-                padding-right: 0;
-            }
-         a.social:hover {
-          -moz-transform: scale(0.9);
-          -webkit-transform: scale(0.9);
-          -o-transform: scale(0.9);
-          -ms-transform: scale(0.9);
-          transform: scale(0.9);
-         }
+				}
+				 a.twitt{
+						background-position: -32px 0;
+				}
+			 a.drible{
+						background-position: -64px 0;
+				}
+				a.besh{
+						background-position: -96px 0;
+				}
+				a.gpl{
+								background-position: -128px 0;
+						}
+				a.rss{
+								background-position: -160px 0;
+								padding-right: 0;
+						}
+				 a.social:hover {
+					-moz-transform: scale(0.9);
+					-webkit-transform: scale(0.9);
+					-o-transform: scale(0.9);
+					-ms-transform: scale(0.9);
+					transform: scale(0.9);
+				 }
 
 /*****Content***************************************************/
 .content{
 
 }
 .slogan{
-    margin-top: 73px;
+	margin-top: 73px;
 	text-align: center;
 }
 
-  .content h2 {
-      font-size: 33px;
-  }               
-   span.h_big{
-      font: bold 33px / 39px 'MyriadProRegular', sans-serif;
-      color: #d42819;
-  }  
+	.content h2 {
+		font-size: 33px;
+	}
+	 span.h_big{
+		font: bold 33px / 39px 'MyriadProRegular', sans-serif;
+		color: #d42819;
+	}
 /***********************************Gallery************************/
 .gallery{
-	margin-top: 38px; 
+	margin-top: 38px;
 }
 .gallery_nav {
-  text-align: center;
-}  
+	text-align: center;
+}
 	.gallery_nav a {
 		text-decoration: none;
 		color: #9b9b9b;
 		font: 14px "MyriadProRegular";
 		text-transform: uppercase;
-		text-decoration: none;	
-    }  
-    .gallery_nav a.select {
-      color: #d42819;
-    }
-     .gallery_nav a:after {
-      content: " / ";
-      color: #9b9b9b; 
-     } 
-     .gallery_nav a:last-child:after {
-         content: "";
-     }  
-        /*gallery_plate (one simple element)*/
+		text-decoration: none;
+		}
+		.gallery_nav a.select {
+			color: #d42819;
+		}
+		 .gallery_nav a:after {
+			content: " / ";
+			color: #9b9b9b;
+		 }
+		 .gallery_nav a:last-child:after {
+			content: "";
+		 }
+				/*gallery_plate (one simple element)*/
 .gallery_content {
-    float: left;
+	float: left;
 	margin-top: 30px;
 }
-    .gallery_plate{
+		.gallery_plate{
 		display: inline-block;
 		margin-right: 25px;
 		margin-bottom: 40px;
 		position: relative;
-    }
+		}
 		.gallery_title{
 			margin-bottom: 10px;
 		}
-			.gallery_title h3, 				
+			.gallery_title h3,
 			.gallery_title h3 a{
 				font: 16px "MyriadProRegular", sans-serif;
 				color: #4f4e4e;
 			}
-			.gallery_title span, 			
+			.gallery_title span,
 			.gallery_title span a{
 				font-size: 12px;
 				color: #868585;
@@ -223,7 +222,7 @@ nav{
 		.zoom_icon{
 			position: absolute;
 			width: 53px;
-			height: 53px;	
+			height: 53px;
 			background: url("../images/zoom_icon.png") no-repeat;
 			bottom: -20px;
 			right: 5px;
